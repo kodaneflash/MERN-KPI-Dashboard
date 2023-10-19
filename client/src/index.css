@@ -25,3 +25,13 @@ body,
 ::-webkit-scrollbar-track:hover {
   background: #2a2b2f;
 }
+
+tspan {
+  fill: #31D3DA; /* Desired color */
+}
+h6.css-16f908o-MuiTypography-root {
+  color: #31D3DA; /* grey color */
+}
+
+
+

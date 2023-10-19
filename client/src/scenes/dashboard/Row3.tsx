@@ -123,7 +123,7 @@ const Row3 = () => {
       </DashboardBox>
       <DashboardBox gridArea="h">
         <BoxHeader
-          title="Recent Orders"
+          title="Recent Sales and Contracts"
           sideText={`${transactionData?.length} latest transactions`}
         />
         <Box
@@ -197,6 +197,12 @@ const Row3 = () => {
             width="40%"
           ></Box>
         </Box>
+        <Typography margin="0 1rem" variant="h6">
+        A clear upward trajectory in revenue can be observed
+        from January to April, with a peak in April at $213,757.75.
+        This consistent growth suggests successful sales campaigns and 
+        market penetration.
+        </Typography>
       </DashboardBox>
     </>
   );
